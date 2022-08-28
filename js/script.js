@@ -11,6 +11,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 $(document).ready(function () {
     $(window).scroll(function () {
+        if ($(this).scrollTop() > 1) {
+            $(".navbar").addClass("sticky")
+        }else{
+            $(".navbar").removeClass("sticky");
+        }
+
+
         if ($(this).scrollTop() > 200) {
             $(".scrollup").fadeIn().css("display", "flex");
         } else {
