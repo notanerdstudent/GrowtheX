@@ -333,6 +333,7 @@ img {
 
 /* Tables and under */
 @media only screen and (max-width: 980px) {
+    
     .logo {
         font-size: 45px;
     }
@@ -356,7 +357,7 @@ img {
     }
 
     p {
-        font-size: 2rem !important;
+        font-size: 1.8rem !important;
     }
 
     .nav-resp {
@@ -375,15 +376,12 @@ img {
         font-size: 2rem;
     }
 
-    .footer h1 {
-        font-size: 1rem !important;
-    }
     .footer p {
-        font-size: 0.9rem !important;
+        font-size: 20px !important;
     }
 
     .footer .flex li a {
-        font-size: 16px !important;
+        font-size: 20px !important;
     }
 
     .testimonials .grid {
@@ -410,5 +408,7 @@ img {
     .about-main .grid > *:nth-child(3) {
         grid-column: 1 / span 3;
     }
-    
+    .about-head i{
+        font-size: 150px;
+    }
 }
