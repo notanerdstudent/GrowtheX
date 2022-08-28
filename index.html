@@ -4,24 +4,27 @@
         <title>Growthex - Grow Your Business</title>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <script src="js/script.js"></script>
         <script
-            src="https://kit.fontawesome.com/5839db616a.js"
-            crossorigin="anonymous"
+        src="https://kit.fontawesome.com/5839db616a.js"
+        crossorigin="anonymous"
         ></script>
         <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/script.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
         <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
         <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
     </head>
     <body>
+        <a href="#" class="scrollup">
+            <i class="fas fa-angle-up"></i>
+        </a>
         <!-- Navbar -->
-        <div class="navbar">
+        <div class="navbar nav-resp">
             <div class="container flex">
                 <h1 class="logo">Growthex</h1>
-                <nav>
-                    <ul>
+                <nav class="navlist list-resp">
+                    <ul class="">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="trade.html">Trade</a></li>
                         <li><a href="purchase.html">Purchase</a></li>
@@ -31,6 +34,9 @@
                         <li><a href="register.html">Create Account</a></li>
                     </ul>
                 </nav>
+            </div>
+            <div class="nav-burger">
+                <i class="fa-solid fa-bars fa-3x"></i>
             </div>
         </div>
 
@@ -71,13 +77,11 @@
             <div class="grid grid-3 text-center my-4 my-auto container">
                 <div class="card">
                     <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_v43587.json"  background="transparent"  speed="0.75" class="lottie-animation" loop  autoplay></lottie-player>
-                    <!-- <i class="fa-solid fa-users fa-4x"></i> -->
                     <h2>1.5 Cr+</h2>
                     <p class="text-secondary">Happy Users</p>
                 </div>
                 <div class="card">
                     <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_4yipi6nc.json" background="transparent"  speed="0.75" class="lottie-animation" loop  autoplay></lottie-player>
-                    <!-- <i class="fa-solid fa-star fa-4x"></i> -->
                     <h2>4.8</h2>
                     <p class="text-secondary">Average Rating</p>
                 </div>
@@ -113,5 +117,29 @@
             </div>
         </section>
 
+        <!-- Footer -->
+        <footer class="footer bg-primary py-5">
+            <div class="container grid grid-3">
+                <div>
+                    <h1>Grothex</h1>
+                    <p>Copyright &copy; 2022</p>
+                </div>
+                <nav class="flex">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                        <li><a href="termsofuse.html">Terms of Use</a></li>
+                        <li><a href="disclosure.html">Disclosure</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </nav>
+                <div class="social text-center">
+                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
