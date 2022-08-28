@@ -211,24 +211,39 @@
     text-align: center;
 }
 
-/* Alert */
-.alert {
-    background-color: var(--light-color);
-    padding: 10px 20px;
-    font-weight: bold;
-    margin: 15px 0;
+/* Animations */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
-.alert i {
-    margin-right: 10px;
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
-.alert-success {
-    background-color: var(--success-color);
-    color: #fff;
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
-.alert-error {
-    background-color: var(--error-color);
-    color: #fff;
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
