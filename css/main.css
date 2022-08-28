@@ -74,13 +74,13 @@ img {
     font-family: "DM Serif Display", serif;
 }
 .navbar {
-    background-color: #01061d; 
+    background-color: #01061d;
     background-color: var(--primary-color);
     color: var(--white);
     height: 75px;
     box-shadow: 1px 1px 1px var(--grey);
 }
-.sticky{
+.sticky {
     position: fixed;
     top: 0;
     z-index: 10;
@@ -117,7 +117,10 @@ img {
     position: relative;
 }
 
-.showcase h1, .testimonials h1, .about-head h1, .about-sub-head h1{
+.showcase h1,
+.testimonials h1,
+.about-head h1,
+.about-sub-head h1 {
     font-size: 40px;
 }
 
@@ -250,7 +253,7 @@ img {
 }
 
 .custom-shape-divider-bottom-1661697121 .shape-fill {
-    fill: #FFFFFF;
+    fill: #ffffff;
 }
 
 /* Footer */
@@ -326,11 +329,11 @@ img {
 }
 
 /* About Header */
-.about-head{
+.about-head {
     animation: slideInFromTop 1s ease-in;
     position: relative;
 }
-.about-head i{
+.about-head i {
     z-index: 1;
     color: var(--white);
     justify-self: flex-end;
@@ -348,26 +351,26 @@ img {
     transform: skewY(3deg);
 }
 
-.about-sub-head{
+.about-sub-head {
     margin-top: 50px;
     animation: slideInFromBottom 1s ease-in;
     margin-bottom: 50px;
 }
-.about-sub-head .grid{
+.about-sub-head .grid {
     grid-template-columns: 30% 70%;
     overflow: hidden;
 }
 
-.lottie-player{
+.lottie-player {
     justify-self: flex-start;
     height: 15rem;
 }
 
 /* About Main*/
-.about-main{
+.about-main {
     animation: slideInFromRight 1s ease-in;
 }
-.about-main .card > i{
+.about-main .card > i {
     margin-right: 20px;
 }
 
@@ -383,7 +386,7 @@ img {
 }
 
 /* Contact */
-.contact-main{
+.contact-main {
     margin-top: 70px;
     position: relative;
 }
@@ -394,7 +397,7 @@ img {
     flex-direction: column;
 }
 
-.contact-main .container .contact-info .box{
+.contact-main .container .contact-info .box {
     position: relative;
     padding: 20px 0;
     display: flex;
@@ -440,7 +443,7 @@ img {
 }
 
 .contact-main .contact-form .form-input input,
-.contact-main .contact-form .form-input textarea{
+.contact-main .contact-form .form-input textarea {
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
@@ -451,7 +454,7 @@ img {
     resize: none;
 }
 
-.contact-main .contact-form .form-input span{
+.contact-main .contact-form .form-input span {
     position: absolute;
     left: 0;
     padding: 5px 0;
@@ -471,7 +474,7 @@ img {
     transform: translateY(-20px);
 }
 
-.contact-main .contact-form .form-input input[type="submit"]{
+.contact-main .contact-form .form-input input[type="submit"] {
     background-color: var(--primary-color);
     color: var(--white);
     border: none;
@@ -480,7 +483,6 @@ img {
 
 /* Tables and under */
 @media only screen and (max-width: 980px) {
-    
     .logo {
         font-size: 45px;
     }
@@ -555,34 +557,35 @@ img {
     .about-main .grid > *:nth-child(3) {
         grid-column: 1 / span 3;
     }
-    .about-head i{
+    .about-head i {
         font-size: 150px;
     }
 
-    .showcase-text{
+    .showcase-text {
         animation: slideInFromTop 1s ease-in;
     }
-    .showcase-form{
+    .showcase-form {
         animation: slideInFromBottom 1s ease-in;
     }
-    
-    .contact-main{
+
+    .contact-main {
         padding: 50px;
     }
-    .contact-main .container{
+    .contact-main .container {
         flex-direction: column;
     }
-    .contact-main .grid{
+    .contact-main .grid {
         display: block;
     }
-    .contact-main .contact-info, .contact-main .contact-form{
+    .contact-main .contact-info,
+    .contact-main .contact-form {
         margin-top: 20px;
         width: 100%;
     }
-    .contact-main .contact-form .form-input{
+    .contact-main .contact-form .form-input {
         height: 80px;
     }
-    .contact-main .contact-form span{
+    .contact-main .contact-form span {
         top: -10px;
         font-size: 25px !important;
     }
