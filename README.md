@@ -16,3 +16,8 @@ This website has AI integration with the world's most advanced systems to give u
 * [JQuery](https://jquery.com/)
 * [Favicon](https://www.istockphoto.com/)
 * [Fontawesome Icons](https://fontawesome.com/)
+
+## Sitemap
+* [Home Page](https://akshut.me/Web-Warriors/index.html)
+* [About Us Page](https://akshut.me/Web-Warriors/about.html)
+* [Contact Page](https://akshut.me/Web-Warriors/contact.html)
